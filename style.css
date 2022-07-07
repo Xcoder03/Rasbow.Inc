@@ -7,7 +7,7 @@
 .hero-section{
     height: 350px;
     width: 100%;
-     background: rgba(3, 3, 3, 0.6);  ;
+  background: rgba(3, 3, 3, 0.6);  ;
    position: relative;
    display: flex;
    flex-direction: column;
@@ -68,10 +68,128 @@
     color: white;
 }
 
+.about{ 
+     background-color: aqua;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.about-image-container{
+   
+    height: 650px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.about-image-container img{
+    height: 400px;
+    width: 260px;
+    z-index: 1;
+    border-radius: 20px;
+}
+.about-image-container div:nth-child(1){
+    position: absolute;
+    background-color: rgb(255,91,41);
+    height: 200px;
+    width: 150px;
+    top: 310px;
+    left: 55px;
+    border-radius: 20px;
+
+}
+.image-1{
+    position: absolute;
+    background-color: rgb(255,91,41);
+    height: 200px;
+    width: 150px;
+    bottom: 310px;
+    right: 55px;
+    border-radius: 20px;
+
+}
+.about-content{
+    height: 620px;
+    width: 100%;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.content-p{
+    margin-left: 25px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(255,91,41);
+}
+
+.about-inner-content{
+    background-color: rgb(45, 119, 119);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header{
+    height: 100px;
+    width: 90%;
+    background-color: chocolate;
+    font-size: 25px;
+}
+.content{
+    height: 100px;
+    width: 90%;
+    background-color: chartreuse;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.visions{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    
+}
+.vision{
+    background: rebeccapurple;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    height: 120px;
+    width: 100%;
+}
+.vision i{
+font-size: 30px;
+}
+.first-vision{
+    background-color: cornsilk;
+    height: 100px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.first-vision p{
+    font-size: 15px;
+}
 
 @media (min-width: 750px) {
     .hero-section{
-        height: 560px;
+        height: 580px;
         justify-content: center;
     }
     .hero-content{
